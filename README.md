@@ -180,17 +180,28 @@ Import all packages involve in this project.
 ## Model Performances
 
 - Model analysis
+
 ![model_analysis](https://user-images.githubusercontent.com/121777112/211500438-736a93ac-1d44-4c3f-87b7-07ef7f861da9.png)
+
 - Accuracy and f1-score
+
 ![accuracy_f1_score](https://user-images.githubusercontent.com/121777112/211500399-45197d5e-8fe8-42e3-92fd-9d719dff6e89.jpg)
+
 - Confusion matrix
+
 ![Confusion_matrix_display](https://user-images.githubusercontent.com/121777112/211500458-148a36e1-1e13-4375-be31-2c7c2f5fbee8.jpg)
+
 - Model training
 red: train, blue: validation
-![epoch_loss](https://user-images.githubusercontent.com/121777112/211500511-342f46ba-fc84-4f82-855e-4205ea5c3c40.jpg)
-![epoch_accuracy](https://user-images.githubusercontent.com/121777112/211500534-dcfe0684-138b-43eb-923b-1a46a3cd7f79.jpg)
+
+ ![epoch_loss](https://user-images.githubusercontent.com/121777112/211500511-342f46ba-fc84-4f82-855e-4205ea5c3c40.jpg)
+
+ ![epoch_accuracy](https://user-images.githubusercontent.com/121777112/211500534-dcfe0684-138b-43eb-923b-1a46a3cd7f79.jpg)
+
 - Model architecture
-![model_architecture](https://user-images.githubusercontent.com/121777112/211500591-41b263e1-2dc5-443f-898e-0bc548e38f84.png)
+
+ ![model_architecture](https://user-images.githubusercontent.com/121777112/211500591-41b263e1-2dc5-443f-898e-0bc548e38f84.png)
+
 ## Discussion
 
 From this project, I found out that Bidirectional LSTM produced better model performance than unidirectional. Bidirectional LSTM combined the layers from both directions and produced a more accurate outputs. As the result, the accuracy of the trained model reached 90%.
